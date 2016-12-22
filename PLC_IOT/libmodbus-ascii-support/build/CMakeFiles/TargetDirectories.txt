@@ -1,0 +1,1 @@
+/home/pi/Documents/Thingtrax/libmodbus-ascii-support/build/CMakeFiles/modbus.dir

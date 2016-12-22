@@ -1,0 +1,62 @@
+modbus_serial_set_serial_mode(3)
+================================
+
+
+NAME
+----
+modbus_serial_set_serial_mode - set the serial mode. Warning, very limited support.
+
+
+SYNOPSIS
+--------
+*int modbus_serial_set_serial_mode(modbus_t *'ctx', int 'mode');*
+
+
+DESCRIPTION
+-----------
+Warning, this function seems to be only supported by the Linux driver of the
+ETRAX 100LX chip.
+
+The *modbus_serial_set_serial_mode()* function shall set the selected serial
+mode:
+
+*MODBUS_SERIAL_RS232*:: the serial line is set for RS232 communication. RS-232
+ (Recommended Standard 232) is the traditional name for a series of standards
+ for serial binary single-ended data and control signals connecting between a
+ DTE (Data Terminal Equipment) and a DCE (Data Circuit-terminating
+ Equipment). It is commonly used in computer serial ports.
+
+*MODBUS_SERIAL_RS485*:: the serial line is set for RS485 communication. EIA-485,
+ also known as TIA/EIA-485 or RS-485, is a standard defining the electrical
+ characteristics of drivers and receivers for use in balanced digital multipoint
+ systems. This standard is widely used for communications in industrial
+ automation because it can be used effectively over long distances and in
+ electrically noisy environments.
+
+This function is only supported on Linux kernels 2.6.28 onwards.
+
+
+RETURN VALUE
+------------
+The function shall return 0 if successful. Otherwise it shall return -1 and set
+errno to one of the values defined below.
+
+
+ERRORS
+------
+*EINVAL*::
+The current libmodbus backend is not serial.
+
+*ENOTSUP*::
+The function is not supported on your platform.
+
+If the call to ioctl() fails, the error code of ioctl will be returned.
+
+SEE ALSO
+--------
+linkmb:modbus_serial_get_serial_mode[3]
+
+AUTHORS
+-------
+The libmodbus documentation was written by Stéphane Raimbault
+<stephane.raimbault@gmail.com>

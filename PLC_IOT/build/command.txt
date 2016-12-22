@@ -1,0 +1,8 @@
+ iothub-explorer login 'HostName=LocalRMd8037.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=r7LvxDbb2O3ji5m3EziPwxj3vrAyNgRxXF7IIUVDpZA='
+ 
+
+iothub-explorer 'HostName=LocalRMd8037.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=r7LvxDbb2O3ji5m3EziPwxjrAyNgRxXF7IIUVDpZA=' monitor-events Pi1
+
+iothub-explorer login 'HostName=LocalRM64e98.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=9BCwaoyKNalpjWSQ+TqnCw8q0pF6UAVEibsVWOLy6kI='
+
+iothub-explorer 'HostName=LocalRM64e98.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=9BCwaoyKNalpjWSQ+TqnCw8q0pF6UAVEibsVWOLy6kI=' monitor-events Pi1

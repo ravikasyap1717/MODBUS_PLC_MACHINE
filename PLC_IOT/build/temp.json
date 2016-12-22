@@ -1,0 +1,396 @@
+{
+  "messageid": "{guid}",
+  "messagecreationdatetime" : "{datetime}",
+  "version": "1",
+  "messagetype": "machine",
+  "category": "plc",
+  "customerid": "132EBF88-FDB4-4CC0-8297-130ACBE973DA",
+  "customername": "bindalpolymer",
+  "floorid": "noida",
+  "machineid": "3DC8ED35-2F03-4061-A90B-CB7881ACCD2B",
+  "make": "Arico",
+  "model": "AR1260",
+  "label": "Arico moulding pilot 1",
+  "tags": [
+    {
+      "property": "actualtemprature",
+      "register": "15537",
+      "value": ""
+    },
+    {
+      "property": "settemprature",
+      "register": "15361",
+      "value": ""
+    },
+    {
+      "property": "upperlimit",
+      "register": "15385",
+      "value": ""
+    },
+    {
+      "property": "lowerlimit",
+      "register": "15377",
+      "value": ""
+    },
+    {
+      "property": "idletemprature",
+      "register": "15369",
+      "value": ""
+    },
+    {
+      "property": "actualtemprature",
+      "register": "15538",
+      "value": ""
+    },
+    {
+      "property": "settemprature",
+      "register": "15362",
+      "value": ""
+    },
+    {
+      "property": "upperlimit",
+      "register": "15386",
+      "value": ""
+    },
+    {
+      "property": "lowerlimit",
+      "register": "15378",
+      "value": ""
+    },
+    {
+      "property": "idletemprature",
+      "register": "15370",
+      "value": ""
+    },
+    {
+      "property": "actualtemprature",
+      "register": "15539",
+      "value": ""
+    },
+    {
+      "property": "settemprature",
+      "register": "15363",
+      "value": ""
+    },
+    {
+      "property": "upperlimit",
+      "register": "15387",
+      "value": ""
+    },
+    {
+      "property": "lowerlimit",
+      "register": "15379",
+      "value": ""
+    },
+    {
+      "property": "idletemprature",
+      "register": "15371",
+      "value": ""
+    },
+    {
+      "property": "actualinjectionposition",
+      "register": "61376",
+      "value": ""
+    },
+    {
+      "property": "actualinjectionpresure",
+      "register": "61380",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11317",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11328",
+      "value": ""
+    },
+    {
+      "property": "upperlimit",
+      "register": "11338",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11345",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11318",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11329",
+      "value": ""
+    },
+    {
+      "property": "upperlimit",
+      "register": "11339",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11346",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11319",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11330",
+      "value": ""
+    },
+    {
+      "property": "upperlimit",
+      "register": "11340",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11347",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11319",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11330",
+      "value": ""
+    },
+    {
+      "property": "upperlimit",
+      "register": "11340",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11347",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11322",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11333",
+      "value": ""
+    },
+    {
+      "property": "time",
+      "register": "11350",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11323",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11334",
+      "value": ""
+    },
+    {
+      "property": "time",
+      "register": "11351",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11323",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11334",
+      "value": ""
+    },
+    {
+      "property": "time",
+      "register": "11351",
+      "value": ""
+    },
+    {
+      "property": "actualmoldposition",
+      "register": "61377",
+      "value": ""
+    },
+    {
+      "property": "open",
+      "register": "11664",
+      "value": ""
+    },
+    {
+      "property": "close",
+      "register": "11665",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11290",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11299",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11307",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11291",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11300",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11308",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11292",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11301",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11309",
+      "value": ""
+    },
+    {
+      "property": "pressure",
+      "register": "11293",
+      "value": ""
+    },
+    {
+      "property": "speed",
+      "register": "11302",
+      "value": ""
+    },
+    {
+      "property": "position",
+      "register": "11310",
+      "value": ""
+    },
+    {
+      "property": "injectionstartposition",
+      "register": "8602",
+      "value": "90"
+    },
+    {
+      "property": "injectioncushionposition",
+      "register": "8603",
+      "value": "100"
+    },
+    {
+      "property": "injectiontime",
+      "register": "8604",
+      "value": ""
+    },
+    {
+      "property": "chargeposition",
+      "register": "8605",
+      "value": ""
+    },
+    {
+      "property": "chargetime",
+      "register": "8606",
+      "value": ""
+    },
+    {
+      "property": "injectionv2pposition",
+      "register": "8607",
+      "value": ""
+    },
+    {
+      "property": "injectionv2ppressure",
+      "register": "8608",
+      "value": ""
+    },
+    {
+      "property": "closeposition",
+      "register": "8609",
+      "value": ""
+    },
+    {
+      "property": "closetime",
+      "register": "8610",
+      "value": ""
+    },
+    {
+      "property": "openposition",
+      "register": "8611",
+      "value": ""
+    },
+    {
+      "property": "opentime",
+      "register": "8612",
+      "value": ""
+    },
+    {
+      "property": "cycletime",
+      "register": "8613",
+      "value": ""
+    },
+    {
+      "property": "cyclecomplete",
+      "register": "8623",
+      "value": ""
+    },
+    {
+      "property": "machinetotalproductionhigh",
+      "register": "12039",
+      "value": ""
+    },
+    {
+      "property": "machinetotalproductionlow",
+      "register": "12038",
+      "value": ""
+    },
+    {
+      "property": "machinepackproductionhigh",
+      "register": "12041",
+      "value": ""
+    },
+    {
+      "property": "machinepackproductionlow",
+      "register": "12040",
+      "value": ""
+    },
+    {
+      "property": "machinefailproductionhigh",
+      "register": "12043",
+      "value": ""
+    },
+    {
+      "property": "machinefailproductionlow",
+      "register": "12042",
+      "value": ""
+    }
+  ]
+}

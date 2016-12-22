@@ -1,0 +1,68 @@
+Determining if the __x86_64__ exist failed with the following output:
+Change Dir: /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2101693922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2101693922.dir/build.make CMakeFiles/cmTryCompileExec2101693922.dir/build
+make[1]: Entering directory '/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2101693922.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_POSIX_C_SOURCE=200112L -D_POSIX_C_SOURCE=200112L --std=c11  -Werror    -o CMakeFiles/cmTryCompileExec2101693922.dir/CheckSymbolExists.c.o   -c /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__x86_64__’ undeclared (first use in this function)
+   return ((int*)(&__x86_64__))[argc];
+                   ^
+/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec2101693922.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2101693922.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2101693922.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2101693922/fast' failed
+make: *** [cmTryCompileExec2101693922/fast] Error 2
+
+File /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __i386__ exist failed with the following output:
+Change Dir: /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1982100408/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1982100408.dir/build.make CMakeFiles/cmTryCompileExec1982100408.dir/build
+make[1]: Entering directory '/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1982100408.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_POSIX_C_SOURCE=200112L -D_POSIX_C_SOURCE=200112L --std=c11  -Werror    -o CMakeFiles/cmTryCompileExec1982100408.dir/CheckSymbolExists.c.o   -c /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: error: ‘__i386__’ undeclared (first use in this function)
+   return ((int*)(&__i386__))[argc];
+                   ^
+/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:7:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTryCompileExec1982100408.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1982100408.dir/CheckSymbolExists.c.o' failed
+make[1]: Leaving directory '/home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1982100408.dir/CheckSymbolExists.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1982100408/fast' failed
+make: *** [cmTryCompileExec1982100408/fast] Error 2
+
+File /home/pi/Documents/Thingtrax/azure_example/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386__
+  return ((int*)(&__i386__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
